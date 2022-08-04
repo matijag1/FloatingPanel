@@ -51,9 +51,7 @@ static FloatingPanelState *_lastQuart;
     FloatingPanelSurfaceAppearance *appearance = [[FloatingPanelSurfaceAppearance alloc] init];
     appearance.backgroundColor = [UIColor clearColor];
     appearance.cornerRadius = 23.0;
-    if (@available(iOS 13.0, *)) {
-        fpc.surfaceView.containerView.layer.cornerCurve = kCACornerCurveContinuous;
-    }
+    fpc.surfaceView.containerView.layer.cornerCurve = kCACornerCurveContinuous;
     FloatingPanelSurfaceAppearanceShadow *shadow = [[FloatingPanelSurfaceAppearanceShadow alloc] init];
     shadow.color = [UIColor redColor];
     shadow.radius = 10.0;

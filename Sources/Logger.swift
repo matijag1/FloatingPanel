@@ -30,7 +30,7 @@ struct Logger {
                 return "Error:"
             }
         }
-        @available(iOS 10.0, *)
+        
         var osLogType: OSLogType {
             switch self {
             case .debug: return .debug

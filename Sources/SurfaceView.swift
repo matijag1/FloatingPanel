@@ -53,7 +53,6 @@ public class SurfaceAppearance: NSObject {
     /// Defines the curve used for rendering the rounded corners of the layer.
     ///
     /// Defaults to `.circular`.
-    @available(iOS 13.0, *)
     public var cornerCurve: CALayerCornerCurve {
         get { _cornerCurve ?? .circular }
         set { _cornerCurve = newValue }
