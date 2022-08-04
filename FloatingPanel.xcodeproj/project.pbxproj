@@ -529,6 +529,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.5.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -563,6 +564,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.5.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -744,6 +746,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.5.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
